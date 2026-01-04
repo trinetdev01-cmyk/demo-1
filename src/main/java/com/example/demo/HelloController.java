@@ -8,6 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class HelloController {
 
+	
     @GetMapping("/test")
     public String test() {
         log.info("★★★ ログ出力のテストに成功しました ★★★");
